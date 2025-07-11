@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: server-b
+  kafka:
+    consumer:
+      group-id: group-b
+      auto-offset-reset: earliest
+      properties:
+        spring.json.trusted.packages: "*"
