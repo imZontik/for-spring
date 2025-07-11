@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: server-a
+  kafka:
+    template:
+      default-topic: topic-a
