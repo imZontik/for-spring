@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: application
+  cloud:
+    kafka:
+      bootstrap-servers: kafka:9092
+    config:
+      profile: default
+      label: main
